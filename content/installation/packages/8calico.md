@@ -133,11 +133,11 @@ template bgp bgp_template {
 }
 
 # list of BGP peers (kubernetes nodes)
-protocol bgp node-01 from bgp_template {
+protocol bgp node1 from bgp_template {
   neighbor 172.16.0.11 as 63400;
 }
 
-protocol bgp node-02 from bgp_template {
+protocol bgp node2 from bgp_template {
   neighbor 172.16.0.12 as 63400;
 }
 ```
