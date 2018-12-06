@@ -77,7 +77,7 @@ spec:
   logSeverityScreen: Info
   nodeToNodeMeshEnabled: true
   asNumber: 63400
-EOF;
+EOF
 ```
 
 To access pods from master you have to install [bird](https://bird.network.cz/) on your master:
@@ -152,7 +152,7 @@ metadata:
 spec:
   peerIP: 172.16.0.1
   asNumber: 63400
-EOF;
+EOF
 ```
 
 Done!

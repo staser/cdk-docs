@@ -69,3 +69,4 @@ hugo
 /public
 .DS_Store
 *.log
+.vscode/settings.json

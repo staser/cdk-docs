@@ -19,6 +19,7 @@ KDC Docs can be launched locally with YARN and Hugo. We strive to make docs as c
 ## Run locally
 If you want to contribute to docs and watch changes locally before you make a commit, run:
 ```
+  yarn
   gulp build
   hugo serve --bind 0.0.0.0 -w
 ```
